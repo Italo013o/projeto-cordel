@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: Passion;
+    src: url(fontes/PassionOne-Bold.ttf);
+}
+@font-face {
+    font-family: Sriracha;
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-variant: small-caps;
+    font-family: "Passion";
+    padding-top: 50px;
+}
+header p{
+    text-align: center;
+    padding-bottom: 50px;
+}
+header a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+header a:hover{
+    color: yellow;
+}
+
+.estrofe1{
+    font-family: "Sriracha";
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.estrofe2{
+    font-family: "Sriracha";
+    padding: 60px 0px 40px 15px;
+    background: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    
+}
+.estrofe2 p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+.estrofe3{
+    font-family: "Sriracha";
+    padding: 60px 0px 40px 15px;
+}
+
+.estrofe4{
+    font-family: "Sriracha";
+    padding: 60px 0px 40px 15px;
+}
+
+.estrofe5{
+    background: url(imagens/background002.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+
+    
+    font-family: "Sriracha";
+    color: white;
+    padding: 60px 0px 40px 15px;
+}
+.estrofe5 p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Sriracha";
+}
+
+
